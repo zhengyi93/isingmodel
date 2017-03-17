@@ -6,8 +6,6 @@ import matplotlib.animation as animation
 N = 10                   # N*N 2D square lattice
 T = 120                   # Thermodynamic temperature (units of J/k_b)
 H = 100
-p = [1.0, exp(-4 / T), exp(-8 / T), 1.0, 1.0]
-# state = ones((N, N), int)    # Initializing the state to all ones
 state = 2*random.randint(2,size=(N, N))-1
 
 
